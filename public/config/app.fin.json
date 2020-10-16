@@ -1,0 +1,19 @@
+{
+  "devtools_port": 9090,
+  "licenseKey": "request-a-key",
+  "startup_app": {
+    "name": "OpenFin Template",
+    "description": "web notifications example",
+    "url": "https://dmntc.sse.codesandbox.io/app.html",
+    "uuid": "openfin-window-template",
+    "autoShow": true,
+    "applicationIcon": "https://dmntc.sse.codesandbox.io/favicon.ico",
+    "permissions": {
+      "webAPIs": ["notifications"]
+    }
+  },
+  "runtime": {
+    "arguments": "--remote-debugging-port=9222",
+    "version": "stable"
+  }
+}

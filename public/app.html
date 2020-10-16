@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Web Push Notifications</title>
+    <script src="components/openfin-link.js"></script>
+    <script type="module" src="js/index.js"></script>
+    <link rel="stylesheet" href="style/main.css" />
+  </head>
+  <body>
+    <div>
+      <p>
+        You are running OpenFin Runtime version:
+        <span id="openfin-version"></span>
+      </p>
+    </div>
+    <div>
+      <form>
+        Notification delay:
+        <input id="notification-delay" type="number" value="5" /> seconds <br />
+        Message:
+        <input id="notification-msg" type="text" value="" />
+      </form>
+      <button id="doIt">send</button>
+    </div>
+  </body>
+</html>
